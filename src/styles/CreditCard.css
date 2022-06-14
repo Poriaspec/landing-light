@@ -1,0 +1,494 @@
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+nav li{
+    list-style: none;
+    padding-right: 70px;
+}
+
+nav li h1{
+    padding-top: 5px;
+}
+nav ul li img{
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+}
+
+hr{
+    display: block;
+    margin: 80px auto;
+    width: 80% ;
+}
+
+.hr2{
+    display: block;
+    margin: 30px auto;
+    width: 80% ;
+}
+
+.hr3{
+    display: block;
+    margin: 40px auto;
+    width: 80% ;
+}
+
+.mainHero{
+    display: flex;
+}
+
+.mainHero1{
+    width: 45%;
+}
+
+.heroTxt1{
+    padding-left:80px;
+}
+
+.heroTxt1 h1{ 
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.heroTxt1 p{
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.creditCard{
+    width: 50%;
+    margin-left: 80px;
+    padding: 20px 100px 5px 20px;
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);    
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+ .creditCard h3{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -5px;
+    letter-spacing: 5px;
+ }
+
+ .creditCard h4{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -5px;
+    letter-spacing: 5px;
+ }
+
+.atm{
+    display: flex;
+}
+
+.atm svg{
+    width: 25px;
+    height: 25px;
+    margin-left: -15px;
+}
+
+.atm img{
+    width: 80px;
+    height: 100px;
+    margin-top: -40px;
+}
+
+
+.masterCard{
+    display: flex;
+    justify-content: right;
+}
+
+.masterCard img{
+    width: 100px;
+    height: 70px;
+    margin-right: -70px;  
+    margin-top: -30px; 
+}
+
+
+.mainHero2{
+    width: 55%;
+}
+
+
+.hero2Img{
+    display: flex;
+    justify-content: right;
+    padding-right: 120px;
+    
+}
+
+.hero2Img img{
+    width: 100px;
+    height: 50px;
+}
+
+.paypal{
+    padding-left: 70px;
+}
+
+.form{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+form input{
+    padding: 20px 50px;
+    background-color:#DcDcDc;
+    color: black;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.second{
+    margin-left: 30px;
+}
+
+.mainRadio{
+    margin-top: 30px;
+}
+
+.radio{
+    margin-left: 40px;
+}
+
+#radio{
+    margin-right: 10px;
+}
+
+form button{
+    margin-left: 40px;
+    margin-top: 30px;
+    width:80%;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+
+.calculation{
+    display: flex;
+}
+
+.calculationTxt{
+    width: 50%;
+    padding-left: 120px;
+
+}
+
+.calculationTxt h3{
+    padding-top: 10px;
+
+}
+
+.calculationFigure{
+    width: 50%;
+}
+
+.calculationFigure h3{
+    display: flex;
+    justify-content: right;
+    padding-right: 120px;
+    padding-top: 10px;
+}
+
+.total{
+    display: flex;
+    margin-bottom: 40px;
+}
+.totalTxt{
+    width: 50%;
+}
+
+.totalTxt button{
+    margin-left: 100px;
+    width: 60%;
+    padding: 15px;
+    background-color: blue;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.totalFigure{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+    margin-top: -20px;
+}
+
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+
+    .form{
+        display: block;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+   
+ 
+    .second{
+        margin-left: 0px;
+    }
+
+    form button{
+        margin-left: 80px;
+        margin-top: 30px;
+        width:70%;
+        padding: 20px;
+        background-color: blue;
+        border-radius: 10px;
+        outline: none;
+        color: white;
+        font-size: 20px;
+        border: none;
+    }
+
+    .creditCard{
+        width: 40%;
+        margin-left: 80px;
+        padding: 25px 90px 5px 25px;
+        background-color: #90d5ec;
+        background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);    
+        border-radius: 5px;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .heroTxt1{
+        padding-left: 80px;
+    }
+
+    .mainHero2{
+        width: 55%;
+    
+    }
+    
+    
+    .hero2Img{
+        display: flex;
+        justify-content: right;
+        padding-right: 50px;
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 420px){
+
+
+    
+hr{
+    display: block;
+    margin: 50px auto;
+    width: 80% ;
+}
+
+.hr2{
+    display: block;
+    margin: 30px auto;
+    width: 80% ;
+}
+
+.hr3{
+    display: block;
+    margin: 40px auto;
+    width: 80% ;
+}
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+nav li{
+    list-style: none;
+    padding-right: 8px;
+    font-size: 8px;
+}
+
+nav ul li img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.mainHero{
+    display: block;
+    margin: 0px auto;
+}
+
+.mainHero1{
+    width: 100%;
+}
+
+.heroTxt1{
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    padding: 0px;
+}
+
+.heroTxt1 h1{ 
+    font-size: 20px;
+    font-weight: 700;  
+    text-align: center;
+}
+
+.heroTxt1 p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.creditCard{
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    padding: 25px 90px 5px 25px;
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);    
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.mainHero2{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+
+.hero2Img{
+    display: block;
+    margin: 0px auto;
+    padding-right: 0px;
+    
+}
+
+.paypal{
+    padding-left: 50px;
+}
+
+.form{
+    display: block;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+.second{
+    margin: 0px;
+}
+
+
+.radio{
+    margin-left: 20px;
+}
+
+#radio{
+    margin-right: 10px;
+}
+
+form button{
+    display: block;
+    margin: 20px 20px;
+    width:80%;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.calculation{
+    display: flex;
+}
+
+.calculationTxt{
+    width: 50%;
+    padding-left: 20px;
+
+}
+
+
+.calculationFigure{
+    width: 50%;
+}
+
+.calculationFigure h3{
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.total{
+    display: flex;
+    margin-bottom: 40px;
+}
+.totalTxt{
+    width: 50%;
+}
+
+.totalTxt button{
+    margin-left: 20px;
+    width: 70%;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+
+
+.totalFigure{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+
+}
+
+.totalFigure h1{
+    margin-top: 0px;
+    font-size: 15px;
+    padding-top: 40px;
+    font-weight: 400;
+    padding-left: 0px;
+}
+
+
+
+}
