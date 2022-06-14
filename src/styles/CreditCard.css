@@ -11,10 +11,15 @@ nav li{
 nav li h1{
     padding-top: 5px;
 }
+
 nav ul li img{
     width: 80px;
     height: 80px;
     padding-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
 }
 
 hr{
@@ -231,6 +236,7 @@ form button{
     justify-content: right;
     padding-right: 100px;
     margin-top: -20px;
+    font-weight: 800;
 }
 
 
@@ -323,13 +329,13 @@ hr{
 
     nav ul{
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
 
     
 nav li{
     list-style: none;
-    padding-right: 8px;
+    padding-right: 17px;
     font-size: 8px;
 }
 
@@ -350,25 +356,23 @@ nav ul li img{
 
 .heroTxt1{
     width: 100%;
-    display: block;
-    margin: 10px auto;
-    padding: 0px;
+    padding-left: 20px;
 }
 
 .heroTxt1 h1{ 
     font-size: 20px;
     font-weight: 700;  
-    text-align: center;
+    text-align: left;
 }
 
 .heroTxt1 p{
     font-size: 15px;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
 }
 
 .creditCard{
-    width: 50%;
+    width: 60%;
     display: block;
     margin: 20px auto;
     padding: 25px 90px 5px 25px;
@@ -485,10 +489,20 @@ form button{
     margin-top: 0px;
     font-size: 15px;
     padding-top: 40px;
-    font-weight: 400;
+    font-weight: 800;
     padding-left: 0px;
 }
 
 
+label{
+    font-size: 15px;
+}
+
+.creditCard h4{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -5px;
+    letter-spacing: 3px;
+ }
 
 }

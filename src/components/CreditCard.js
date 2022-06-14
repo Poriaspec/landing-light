@@ -17,9 +17,9 @@ const CreditCard=()=> {
 
     <nav>
         <ul>
-            <li><h1>TRIPS</h1></li>
-            <li><h1>RECENTLY VIEWED</h1></li>
-            <li><h1>BOOKINGS</h1></li>
+            <li><h1><a href='/'>TRIPS</a></h1></li>
+            <li><h1><a href='/'>RECENTLY VIEWED</a></h1></li>
+            <li><h1><a href='/'>BOOKINGS</a></h1></li>
             <li><img src={Poria} alt='Poria'/></li>
         </ul>
     </nav>
